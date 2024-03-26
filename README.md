@@ -18,7 +18,7 @@ python tutorial
 - Run python by docker image
 
 ```
-docker run -it -d python:3.9
+docker run -it -d [python:3.9 / image_id]
 docker exec -it [container_id] bash
 ```
 
