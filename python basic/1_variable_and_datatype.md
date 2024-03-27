@@ -95,6 +95,9 @@ int, float, complex
 
 `del variable` # giải phóng vùng nhớ
 
+- Python có một bộ thu gom rác (garbage collector) tích hợp, nhiệm vụ của nó là thu hồi bộ nhớ được sử dụng bởi các biến không còn được sử dụng nữa. 
+- Mặc dù điều này giúp giảm thiểu vấn đề rò rỉ bộ nhớ, nhưng nó không đảm bảo rằng bộ nhớ sẽ không bao giờ đầy.
+
 ```
 b = 10 + 24j
 print(b + 20)
