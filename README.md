@@ -22,6 +22,13 @@ docker run -it -d [python:3.9 / image_id]
 docker exec -it [container_id] bash
 ```
 
+- Run mysql
+
+```
+docker run --name name-mysql -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=db -d [mysql:8.0 / image_id]
+docker inspect name-mysql | grep IPAddress
+```
+
 ## Nguồn tham khảo
 
 - https://toidicode.com/tong-quan-ve-python-161.html
